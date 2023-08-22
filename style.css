@@ -1,0 +1,107 @@
+body::-webkit-scrollbar {
+    overflow: hidden;
+    display: none;
+  }
+  body {
+    margin: 0px;
+  }
+  
+  #container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #container img{
+    height: 100vh;
+    width: 100vw;
+  }
+  #rod1 {
+    height: 5vh;
+    width: 20vw;
+    min-width: 180px;
+    border: 5px solid #0b0b0b;
+    border-radius: 25px;
+    box-shadow: 0px 0px 30px rgba(11, 3, 3, 0.9);
+    position: absolute;
+    top: 0px;
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  #rod1 img{
+    height: 5vh;
+    width: 20vw;
+    min-width: 180px;
+    border-radius: 25px;
+  }
+  
+  #ball {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgba(185, 29, 29, 0.9);
+    position: absolute;
+    border: 1px solid black;
+    top: 50%;
+    margin-top: -35px;
+  }
+  #ball img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+
+  
+  #rod2 {
+    height: 5vh;
+    width: 20vw;
+    min-width: 180px;
+    border: 5px solid #0b0b0b;
+    border-radius: 25px;
+    box-shadow: 0px 0px 30px rgba(11, 3, 3, 0.9);
+    position: absolute;
+    bottom: 0px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  #rod2 img{
+    height: 5vh;
+    width: 20vw;
+    min-width: 180px;
+    border-radius: 25px;
+  }
+  
+  
+  p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    z-index: 2;
+  }
+  
+  /* ball moving transition code */
+  .animate-top-right {
+    transition: transform linear 8s;
+    transform: translateX(2000px) translateY(-2000px);
+  }
+  
+  .animate-bottom-right {
+    transition: transform linear 8s;
+    transform: translateX(2000px) translateY(2000px);
+  }
+  .animate-top-left {
+    transition: transform linear 8s;
+    transform: translateX(-2000px) translateY(-2000px);
+  }
+  .animate-bottom-left {
+    transition: transform linear 8s;
+    transform: translateX(-2000px) translateY(2000px);
+  }
+  
