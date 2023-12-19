@@ -1,6 +1,6 @@
 Ping Pong Game    https://vishal25082000.github.io/Ping_Pong_Game/
 
-Welcome to the Ping Pong Game project! This simple yet entertaining game was created by [Your Name] using HTML5, CSS, and JavaScript.
+Welcome to the Ping Pong Game project! This simple yet entertaining game was created by {me_aka_Vishal Kumar} using HTML5, CSS, and JavaScript.
 Overview..
 Ping Pong Game is a classic arcade game that brings back the nostalgia of the traditional Pong game. It features two paddles and a ball, with the objective of hitting the ball back and forth between the paddles without letting it pass. The game is built using HTML5 for structure, CSS for styling, and JavaScript for the game logic.
 
